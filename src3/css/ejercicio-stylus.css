@@ -17,6 +17,37 @@ body .buscador__input {
   height: 60px;
   border-radius: 10px;
   border: none;
+  padding: 30px;
+  font-size: 25px;
+}
+img {
+  width: 500px;
+  height: auto;
+}
+.encabezado--con-filtro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+h2 {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 50px;
+}
+.filtros {
+  width: 240px;
+  height: 75px;
   padding: 20px;
+  margin-left: auto;
+}
+.filtros span {
+  text-transform: uppercase;
+}
+.filtros a {
+  margin-left: 20px;
   font-size: 25px;
 }
