@@ -24,15 +24,8 @@ img {
   width: 500px;
   height: auto;
 }
-.encabezado--con-filtro {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 90%;
-  margin: 0 auto;
-  padding: 30px 0;
-}
 h2 {
+  text-align: center;
   margin-top: 10px;
   text-transform: uppercase;
   font-weight: 500;
@@ -43,6 +36,8 @@ h2 {
   height: 75px;
   padding: 20px;
   margin-left: auto;
+  background-color: #fff;
+  box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
 }
 .filtros span {
   text-transform: uppercase;
@@ -50,4 +45,31 @@ h2 {
 .filtros a {
   margin-left: 20px;
   font-size: 25px;
+  color: #11a1e3;
+}
+.contenido {
+  margin-bottom: 40px;
+  justify-content: space-evenly;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.caja {
+  max-width: 500px;
+  background-color: #fff;
+  box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+.caja__contenido {
+  padding: 20px;
+  background-color: #fff;
+}
+.caja__contenido span {
+  text-transform: uppercase;
+  color: #04b2d9;
+  font-family: arial;
+}
+.caja__contenido height {
+  text-transform: uppercase;
 }

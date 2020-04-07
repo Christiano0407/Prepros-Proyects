@@ -1,7 +1,14 @@
 color-secundario = #04B2D9;
 color-terciario = #11A1E3
 color-blanco = #fff; 
-
+contenedor()
+  display:flex
+  width: 90%
+  margin: 0 auto;
+  padding 30px 0;
+caja-sombra()
+  background-color:color-blanco
+  box-shadow: 0px 20px 33px 0px rgba(0,0,0,.20)
 * 
     box-sizing: border-box
 
@@ -27,13 +34,9 @@ img
  height:auto;
 
 .encabezado--con-filtro
-  display:flex
-  align-items:center;
-  justify-content: center;
-  width: 90%
-  margin: 0 auto;
-  padding:30px 0;
+  contenido()
 h2
+   text-align: center
    margin-top:10px
    text-transform:uppercase;
    font-weight:500
@@ -43,8 +46,29 @@ h2
    height 75px
    padding 20px
    margin-left: auto;
+   caja-sombra()
    span 
     text-transform:uppercase
    a 
     margin-left: 20px
     font-size:25px
+    color: color-terciario;
+
+.contenido
+    margin-bottom:40px
+    justify-content: space-evenly
+    contenedor()
+.caja 
+  max-width:500px
+  caja-sombra()
+  border-radius:10px
+  &__contenido
+     padding:20px
+     background-color: color-blanco
+     span 
+       text-transform:uppercase
+       color:color-secundario
+       font-family: arial
+     height 
+       text-transform: uppercase
+    
