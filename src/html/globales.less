@@ -1,0 +1,31 @@
+@color-primario: #333333;
+@color-claro:#FFFFFF;
+@color-secundario:#8841da;
+@color-variacion:#012179;
+@fuente1:"arial", sans-serif;
+@fuente2:"helvetica", sans-serif;
+@fuente-base:18px;
+
+.sombra-caja{
+    box-shadow: 0px 5px 15px 0px fade(@color-primario, 40%);
+}
+.fuente(@fuente2){
+    font-size: 15px;
+    line-height: 30px;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: @fuente1;
+    color: @color-primario;
+   .fuente(@fuente2);
+  /*  background-color: rgb(58, 57, 57); */
+}
+
+h1,h2,h3{
+    font-family: @fuente2;
+    text-transform: uppercase;
+    margin: 0;
+}

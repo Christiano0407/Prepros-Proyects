@@ -1,0 +1,44 @@
+$Fuente1: "font-family: unibody-8-new", sans-serif;
+$Color-primario:#333333;
+$Color-secundario:#9B49FF;
+$Color-claro:rgb(248, 245, 232);
+$Color-variacion:rgb(35, 20, 245);
+
+ @mixin caja{
+    border-radius: 20px;
+    box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.40);
+    color: $color-primario;
+    background-color:$color-claro;
+}  
+
+/* @mixin titulos($Fuente1) {
+    
+} */
+
+@function get-opacity($color, $nivel) {
+   @return rgba($color, $nivel);
+}
+
+@each $header, $size in (h1: 30px, h2: 25px, h3: 20px) {
+    #{$header}{
+        font-size: $size;
+        margin: 0;
+    }
+}
+
+*{
+    box-sizing: border-box;
+}
+body {
+margin: 0;
+font-family: interstate-mono, monospace;
+
+font-weight: 400;
+
+font-style: normal;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}

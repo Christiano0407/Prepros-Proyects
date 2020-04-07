@@ -1,0 +1,37 @@
+extend src/html/plantilla.pug
+ block Contenidos
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/ejercicio-pug.css")
+        title PUGs
+    body
+    header
+     h1 #{title[0]}
+    if usuario 
+     a Hola #{usuario}
+    else 
+     a.boton registro
+    section.intro
+     div.intro__imagen
+      img(src="src/images/imagen.png/imagen.png")
+     div.intro__contenido
+      h2= titles
+      p Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, eius. Magnam accusantium molestiae ab, nam, quo necessitatibus, est tempora voluptatibus enim ducimus adipisci voluptatem consequatur quam quidem delectus laboriosam placeat?
+      span Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ea minima. Possimus atque iste labore nobis totam. Magnam deleniti repellat blanditiis odio rem aliquid aspernatur, debitis, voluptatem, ex ab laudantium?
+      a.boton Leer Máss
+     ul
+      each tituloss in title
+       li=tituloss 
+    main.contenido
+    +caja
+    +caja
+    +caja
+    footer
+     h1 #{title[0]}
+     ul
+      each enlaces in enlace
+       li=enlaces
+
