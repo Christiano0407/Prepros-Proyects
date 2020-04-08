@@ -907,3 +907,22 @@ main {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+.nav--social {
+  margin-left: auto;
+}
+.nav--social ul {
+  display: flex;
+  padding-top: 35px;
+}
+.nav--social li {
+  list-style: none;
+  margin-right: 50px;
+  color: #FFF;
+}
+.nav--social a {
+  color: #FFF;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}

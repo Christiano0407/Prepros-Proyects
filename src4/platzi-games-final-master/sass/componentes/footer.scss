@@ -16,4 +16,21 @@
       color: $color-claro;
       @include titulos($Fuente2); 
     }
-}
+  }
+    .nav--social  {
+     margin-left:auto;
+    
+    ul {
+      display: flex;
+      padding-top:35px;
+    }
+    li {
+      list-style: none;
+      margin-right: 50px;
+      color: $color-claro;
+    }
+    a{
+      color: $color-claro;
+      @include titulos($Fuente2); 
+    }
+  }
