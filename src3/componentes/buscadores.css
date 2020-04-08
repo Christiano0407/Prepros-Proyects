@@ -1,0 +1,15 @@
+.buscador {
+  width: 100%;
+  height: 250px;
+  padding: 100px;
+  text-align: center;
+  background-color: color-secundario;
+}
+.buscador__input {
+  width: 75%;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  padding: 30px;
+  font-size: 25px;
+}

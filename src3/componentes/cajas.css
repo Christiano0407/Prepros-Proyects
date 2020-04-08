@@ -1,0 +1,24 @@
+img {
+  width: 500px;
+  height: auto;
+}
+.contenido {
+  margin-bottom: 40px;
+  justify-content: space-evenly;
+}
+.caja {
+  max-width: 500px;
+  border-radius: 10px;
+}
+.caja__contenido {
+  padding: 20px;
+  background-color: color-blanco;
+}
+.caja__contenido span {
+  text-transform: uppercase;
+  color: color-secundario;
+  font-family: arial;
+}
+.caja__contenido height {
+  text-transform: uppercase;
+}
