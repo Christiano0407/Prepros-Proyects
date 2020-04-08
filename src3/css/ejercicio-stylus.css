@@ -86,6 +86,7 @@ img {
 }
 .estadistica--articulos ul li {
   list-style: none;
+  color: rgba(4,178,217,0.3);
 }
 .estadistica--articulos ul span {
   margin-left: 10px;
