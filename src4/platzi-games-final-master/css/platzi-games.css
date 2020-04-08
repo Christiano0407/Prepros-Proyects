@@ -884,3 +884,26 @@ main {
   font-size: 20px;
   text-decoration: none;
 }
+
+.footer--principal {
+  display: flex;
+  height: 160px;
+  margin-top: 30px;
+  padding: 0 20px 20px 20px;
+  background-color: #333333;
+}
+
+.nav--footer ul {
+  display: flex;
+  padding-top: 35px;
+}
+.nav--footer ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+.nav--footer ul a {
+  color: #FFF;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
